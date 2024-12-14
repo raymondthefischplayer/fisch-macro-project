@@ -18,10 +18,6 @@ AutoGraphicsDelay := 50
 AutoZoomInCamera := true
 AutoZoomDelay := 50
 
-; Set to true to check for camera mode and enable it
-AutoEnableCameraMode := true
-AutoCameraDelay := 5
-
 ; Set to true to automatically look down
 AutoLookDownCamera := true
 AutoLookDelay := 200
@@ -51,7 +47,7 @@ ShakeMode := "Click"
 FishBarColorTolerance := 0
 
 ; Seconds for click shake to be considered failed
-ClickShakeFailsafe := 20
+ClickShakeFailsafe := 18
 ; Color range to scan for "shake" text
 ClickShakeColorTolerance := 1
 ; Delay between each scan in miliseconds
@@ -67,7 +63,7 @@ NavigationSpamDelay := 10
 ;     MINIGAME SETTINGS     ====================================================================================================;
 
 ; Bar size is automatically calculated, set manual value to override
-ManualBarSize := 63.5
+ManualBarSize := 127
 ; Seconds for calculation to be considered failed
 BarCalculationFailsafe := 1
 ; Color range to scan for initial white bar
