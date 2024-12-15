@@ -44,7 +44,7 @@ NavigationKey := "\"
 ShakeMode := "Click"
 
 ; Color range to scan for fish bar
-FishBarColorTolerance := 0
+FishBarColorTolerance := 20
 
 ; Seconds for click shake to be considered failed
 ClickShakeFailsafe := 18
@@ -67,7 +67,7 @@ ManualBarSize := 63.5
 ; Seconds for calculation to be considered failed
 BarCalculationFailsafe := 1
 ; Color range to scan for initial white bar
-BarSizeCalculationColorTolerance := 20
+BarSizeCalculationColorTolerance := 5.3
 
 ; Color range to scan for minigame white bar
 WhiteBarColorTolerance := 5
@@ -75,7 +75,7 @@ WhiteBarColorTolerance := 5
 ArrowColorTolerance := 0
 
 ; Amount of clicks per action cycle
-StabilizerLoop := 10
+StabilizerLoop := 35
 ; Ratio for bar side maximum hold (1 = max bar|0.5 = half bar)
 SideBarRatio := 0.8
 ; Multiplier for how long to wait at the sides to prevent bounce
