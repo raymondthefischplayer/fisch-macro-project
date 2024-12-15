@@ -63,7 +63,7 @@ NavigationSpamDelay := 10
 ;     MINIGAME SETTINGS     ====================================================================================================;
 
 ; Bar size is automatically calculated, set manual value to override
-ManualBarSize := 127
+ManualBarSize := 63.5
 ; Seconds for calculation to be considered failed
 BarCalculationFailsafe := 1
 ; Color range to scan for initial white bar
@@ -110,14 +110,7 @@ if (AutoLowerGraphics != true and AutoLowerGraphics != false)
 	{
 	msgbox, AutoLowerGraphics must be set to true or false! (check your spelling)
 	exitapp
-	}
-	
-if (AutoEnableCameraMode != true and AutoEnableCameraMode != false)
-	{
-	msgbox, AutoEnableCameraMode must be set to true or false! (check your spelling)
-	exitapp
-	}
-	
+	}	
 if (AutoZoomInCamera != true and AutoZoomInCamera != false)
 	{
 	msgbox, AutoZoomInCamera must be set to true or false! (check your spelling)
@@ -312,7 +305,7 @@ $p::
 ;====================================================================================================;
 
 gosub, Calculations
-settimer, runtime, 1000
+settimer, runtime, 1800
 
 tooltip, Press "O" to Reload, %TooltipX%, %Tooltip4%, 4
 tooltip, Press "M" to Exit, %TooltipX%, %Tooltip5%, 5
